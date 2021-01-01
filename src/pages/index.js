@@ -1,9 +1,14 @@
-import Head from 'next/head'
+import Menu from '../components/Menu';
+import SlideIntro from '../components/SlideIntro';
+import DataSlide from '../data/slide';
 
 export default function Home() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Menu/>
+
+
+
     </>
   )
 }

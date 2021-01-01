@@ -1,26 +1,27 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 10px;
+  padding: 0 10px;
 `;
 
-export const Header = styled.div`
+export const Header = styled.header`
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+
 `;
 
 export const Logo = styled.div`
   font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const MenuList = styled.ul`
   display: flex;
+  margin-top: 20px;
 
   a {
     text-decoration: none;
@@ -34,7 +35,7 @@ export const MenuList = styled.ul`
   }
 
   li {
-    padding: 20px;
+    padding: 0 20px;
   }
 `;
 
